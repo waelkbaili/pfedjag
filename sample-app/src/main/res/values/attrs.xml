@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="dt">
+        <attr name="firstTxtColor" format="color" />
+        <attr name="secondTxtColor" format="color" />
+        <attr name="firstTxtColorDark" format="color" />
+        <attr name="secondTxtColorDark" format="color" />
+        <attr name="firstBack" format="color" />
+        <attr name="secondBack" format="color" />
+        <attr name="firstBackDark" format="color" />
+        <attr name="secondBackDark" format="color" />
+        <attr name="colorText" format="color"/>
+        <attr name="bg" format="color"/>
+        <attr name="dialog" format="color"/>
+        <attr name="toolbar" format="color"/>
+        <attr name="layout_back" format="color"/>
+        <attr name="change_map" format="color"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-obd-reader-master.iml" filepath="$PROJECT_DIR$/.idea/modules/android-obd-reader-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/obd-reader/android-obd-reader-master.obd-reader.iml" filepath="$PROJECT_DIR$/.idea/modules/obd-reader/android-obd-reader-master.obd-reader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample-app/android-obd-reader-master.sample-app.iml" filepath="$PROJECT_DIR$/.idea/modules/sample-app/android-obd-reader-master.sample-app.iml" />
+    </modules>
+  </component>
+</project>

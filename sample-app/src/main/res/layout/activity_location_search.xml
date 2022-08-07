@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/layout_back"
+    tools:context=".LocationSearch"
+    android:orientation="vertical">
+    <include layout="@layout/drivewin" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/dateTimeS"
+        android:textColor="?attr/firstTxtColor"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/buttonSelectDateStart"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/date_histo"
+        android:background="@drawable/rectangle"
+        android:text="Date"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/buttonSelectTimeStart"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:drawableLeft="@drawable/histo_time"
+        android:text="Time"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:layout_marginRight="30dp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        tools:ignore="RtlCompat"/>
+
+    <View
+        android:id="@+id/ligne"
+        android:layout_width="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_height="1dp"
+        android:background="?attr/firstTxtColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSelectDateStart"/>
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="?attr/firstTxtColor"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSelectDateStart"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/dateTimeE"
+        android:textColor="?attr/firstTxtColor"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ligne" />
+
+    <TextView
+        android:id="@+id/buttonSelectDateEnd"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@drawable/date_histo"
+        android:text="Date"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        tools:ignore="RtlCompat"
+        />
+
+    <TextView
+        android:id="@+id/buttonSelectTimeEnd"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@drawable/histo_time"
+        android:text="Time"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:layout_marginRight="30dp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        tools:ignore="RtlCompat"/>
+
+    <TextView
+        android:id="@+id/end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="?attr/firstTxtColor"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSelectDateEnd"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/buttonSelectLoc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/img"
+        android:text="@string/showTrip"
+        android:textColor="@color/menu_item"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/SCBSwitch"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonSelectDateEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSelectTimeStart" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/nav"
+        app:menu="@menu/menunavbar"
+        app:itemTextColor="@color/bottom_nav_color"
+        app:itemIconTint="@color/bottom_nav_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/progresslayout"
+        android:background="@color/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

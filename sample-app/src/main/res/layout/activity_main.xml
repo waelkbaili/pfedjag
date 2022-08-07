@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/layout_back"
+    android:orientation="vertical"
+    tools:visibility="visible">
+
+    <include layout="@layout/drivewin" />
+
+
+    <TextView
+        android:id="@+id/tv_obd_info"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:text="  OBD  "
+        android:textSize="12sp"
+        android:gravity="center_vertical"
+        android:background="@drawable/red"
+        android:textColor="?attr/secondTxtColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--
+     <Button
+         android:id="@+id/des"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/colorAccent"
+         android:text="@string/swtch"
+         android:textColor="@color/text"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/tv_obd_info" />
+
+
+
+ -->
+    <TextView
+        android:id="@+id/loc"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:text="  GPS  "
+        android:textSize="12sp"
+        android:gravity="center_vertical"
+        android:background="@drawable/red"
+        android:textColor="?attr/secondTxtColor"
+        app:layout_constraintEnd_toStartOf="@+id/tv_obd_info"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <info.hoang8f.android.segmented.SegmentedGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:sc_border_width="2dp"
+        app:sc_corner_radius="30dp"
+        android:layout_marginRight="50dp">
+
+        <RadioButton
+            android:id="@+id/classique"
+            style="@style/RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/classic"
+            android:textColor="@color/gray"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radio_two"
+            style="@style/RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="checkButton"
+            android:text="Sport"
+            android:textColor="@color/gray"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+    </info.hoang8f.android.segmented.SegmentedGroup>
+
+    <TextView
+        android:id="@+id/digit_speed_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/start_end_btn"
+        android:gravity="center_vertical"
+        android:layout_marginTop="200dp"
+        android:visibility="invisible"
+        android:text="0.0 KM"
+        android:textAlignment="center"
+        android:textColor="?attr/firstTxtColor"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlCompat" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="250dp"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/firstTxtColor"
+            android:textColorHint="?attr/firstTxtColor" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/btn_end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/btn_start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/SCBSwitch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/vitesserappel"
+        android:gravity="center"
+        android:text="@string/limit"
+        android:textColor="@color/black"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/limiteSpeed"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="130dp"
+        android:layout_marginEnd="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/vitessepanneau"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="20dp" />
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/nav"
+        app:menu="@menu/menunavbar"
+        app:itemTextColor="@color/bottom_nav_color"
+        app:itemIconTint="@color/bottom_nav_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

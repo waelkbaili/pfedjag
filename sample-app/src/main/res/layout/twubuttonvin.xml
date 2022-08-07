@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <Button
+        android:id="@+id/live"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/firstTxtColor"
+        android:text="@string/liveroute"
+        android:background="@drawable/img"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginEnd="20sp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/old"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:textColor="?attr/firstTxtColor"
+        android:text="@string/listoldtrip"
+        android:background="@drawable/img"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginEnd="20sp"
+        android:textAllCaps="false"
+        />
+
+</FrameLayout>

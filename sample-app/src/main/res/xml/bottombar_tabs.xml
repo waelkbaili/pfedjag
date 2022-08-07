@@ -1,0 +1,14 @@
+<tabs>
+    <tab
+        id="@+id/tab_favorites"
+        icon="@drawable/mail_foreground"
+         />
+    <tab
+        id="@+id/tab_nearby"
+        icon="@drawable/mail_foreground"
+         />
+    <tab
+        id="@+id/tab_friends"
+        icon="@drawable/mail_foreground"
+        />
+</tabs>

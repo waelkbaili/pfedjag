@@ -1,0 +1,30 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.com.android_obd_reader"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\src\main\AndroidManifest.xml
+10
+11    <uses-permission
+11-->C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\src\main\AndroidManifest.xml:4:5-6:38
+12        android:name="android.permission.ACCESS_COARSE_LOCATION"
+12-->C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\src\main\AndroidManifest.xml:5:9-65
+13        android:maxSdkVersion="22" />
+13-->C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\src\main\AndroidManifest.xml:6:9-35
+14    <uses-permission android:name="android.permission.BLUETOOTH" />
+14-->C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\src\main\AndroidManifest.xml:7:5-68
+14-->C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\src\main\AndroidManifest.xml:7:22-65
+15    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+15-->C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\src\main\AndroidManifest.xml:8:5-74
+15-->C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\src\main\AndroidManifest.xml:8:22-71
+16
+17    <application>
+17-->C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\src\main\AndroidManifest.xml:10:5-12:19
+18    </application>
+19
+20</manifest>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.capur16:digitspeedviewlib:1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2e1646c40e3a5cf97e7bdbeeae7189b7/digitspeedviewlib-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2e1646c40e3a5cf97e7bdbeeae7189b7/digitspeedviewlib-1.0.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2e1646c40e3a5cf97e7bdbeeae7189b7/digitspeedviewlib-1.0.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.capur16/digitspeedviewlib/1.0.3/45867b4255875ad397b9619dcbb75b6c04a8c798/digitspeedviewlib-1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.capur16/digitspeedviewlib/1.0.3/3d3cbfd8e1f3d2fc2041c8b63b4f53210d33f7e4/digitspeedviewlib-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/firstTxtColor"
+        android:checked="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginStart="20sp"  />
+    <CheckBox
+        android:id="@+id/checkbox2"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/firstTxtColor"
+        android:checked="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginStart="20sp"
+        />
+
+</FrameLayout>

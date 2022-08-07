@@ -1,0 +1,452 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:2:1-105:12
+MERGED from [:obd-reader] C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f858484928deed1a8d074a95934f6dac\design-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.capur16:digitspeedviewlib:1.0.3] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2e1646c40e3a5cf97e7bdbeeae7189b7\digitspeedviewlib-1.0.3\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fc0a90c5dd3569b60a485b829913e2b8\appcompat-v7-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c2d0cef8df1326fec449ad8ee7200474\constraint-layout-1.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\724c0271a3de25ca351c29a2523b0762\play-services-maps-16.0.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\64198ee9f2584b968fd25a9df906764f\recyclerview-v7-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\d702a75014c01e8d2c394031387f3622\gridlayout-v7-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a9daf6b0f087d27ac29c96b2b42058c8\cardview-v7-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.anastr:speedviewlib:1.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c0a1194f4113be66e6f55550ebb9f57b\speedviewlib-1.2.0\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.blackfizz:eazegraph:1.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\1de5f280388e78f344af1731625e2f59\eazegraph-1.2.2\AndroidManifest.xml:2:1-14:12
+MERGED from [im.dacer:AndroidCharts:1.0.4] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\9d18d9de5abd08c078be47369277384f\AndroidCharts-1.0.4\AndroidManifest.xml:2:1-13:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4be2a128164efb74abb14333115685ca\circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [info.hoang8f:android-segmented:1.0.6] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0727cc8bd3667fe063ce60db20933cee\android-segmented-1.0.6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\08f2633415ad943b7a3663e67463e2d1\animated-vector-drawable-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0ae7b95f64d87b3a76bc43b5e65fb815\support-vector-drawable-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\492bdaeeeb0d2c3e82ad990716dbe113\play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\90d1df03c49584b822b728771f290818\play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\295bfe839c3fef547ad5623122dcafad\play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2e447865d4c61c5689b763c695f89312\transition-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5fa3780e07af6d9e43ac0c5d194c99c1\support-v4-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f65ae822761425996d7d12c0ef8efee5\support-fragment-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\1c1c2c267181abac31d7c699e33f94f1\support-core-ui-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\97f30b34445ebb92d0684113bc39fd60\support-media-compat-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\30a8183c0492274cd7616cfc89c07c67\support-core-utils-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24aee3baa18a5f41f233e69e2ad25e91\support-compat-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\eba85997079f405dd0d85e5a1e749eb0\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:2:1-105:12
+	package
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:2:1-105:12
+		INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:2:1-105:12
+		INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\724c0271a3de25ca351c29a2523b0762\play-services-maps-16.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\724c0271a3de25ca351c29a2523b0762\play-services-maps-16.0.0\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:7:5-68
+MERGED from [:obd-reader] C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-68
+MERGED from [:obd-reader] C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:8:5-74
+MERGED from [:obd-reader] C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-74
+MERGED from [:obd-reader] C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:8:22-71
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\724c0271a3de25ca351c29a2523b0762\play-services-maps-16.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\724c0271a3de25ca351c29a2523b0762\play-services-maps-16.0.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:12:5-81
+MERGED from [:obd-reader] C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-13:38
+MERGED from [:obd-reader] C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-13:38
+	android:maxSdkVersion
+		ADDED from [:obd-reader] C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-35
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:13:5-89
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:13:22-86
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:14:5-95
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:14:22-92
+supports-screens
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:16:5-20:40
+	android:largeScreens
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:17:9-36
+	android:smallScreens
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:19:9-36
+	android:normalScreens
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:18:9-37
+	android:xlargeScreens
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:20:9-37
+application
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:22:5-103:19
+MERGED from [:obd-reader] C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-18:19
+MERGED from [:obd-reader] C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-18:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f858484928deed1a8d074a95934f6dac\design-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f858484928deed1a8d074a95934f6dac\design-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.github.capur16:digitspeedviewlib:1.0.3] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2e1646c40e3a5cf97e7bdbeeae7189b7\digitspeedviewlib-1.0.3\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.capur16:digitspeedviewlib:1.0.3] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2e1646c40e3a5cf97e7bdbeeae7189b7\digitspeedviewlib-1.0.3\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fc0a90c5dd3569b60a485b829913e2b8\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fc0a90c5dd3569b60a485b829913e2b8\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c2d0cef8df1326fec449ad8ee7200474\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c2d0cef8df1326fec449ad8ee7200474\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\724c0271a3de25ca351c29a2523b0762\play-services-maps-16.0.0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\724c0271a3de25ca351c29a2523b0762\play-services-maps-16.0.0\AndroidManifest.xml:30:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\64198ee9f2584b968fd25a9df906764f\recyclerview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\64198ee9f2584b968fd25a9df906764f\recyclerview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\d702a75014c01e8d2c394031387f3622\gridlayout-v7-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\d702a75014c01e8d2c394031387f3622\gridlayout-v7-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a9daf6b0f087d27ac29c96b2b42058c8\cardview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a9daf6b0f087d27ac29c96b2b42058c8\cardview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.anastr:speedviewlib:1.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c0a1194f4113be66e6f55550ebb9f57b\speedviewlib-1.2.0\AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.anastr:speedviewlib:1.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c0a1194f4113be66e6f55550ebb9f57b\speedviewlib-1.2.0\AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.blackfizz:eazegraph:1.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\1de5f280388e78f344af1731625e2f59\eazegraph-1.2.2\AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.blackfizz:eazegraph:1.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\1de5f280388e78f344af1731625e2f59\eazegraph-1.2.2\AndroidManifest.xml:11:5-12:19
+MERGED from [im.dacer:AndroidCharts:1.0.4] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\9d18d9de5abd08c078be47369277384f\AndroidCharts-1.0.4\AndroidManifest.xml:10:5-11:19
+MERGED from [im.dacer:AndroidCharts:1.0.4] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\9d18d9de5abd08c078be47369277384f\AndroidCharts-1.0.4\AndroidManifest.xml:10:5-11:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4be2a128164efb74abb14333115685ca\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4be2a128164efb74abb14333115685ca\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\08f2633415ad943b7a3663e67463e2d1\animated-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\08f2633415ad943b7a3663e67463e2d1\animated-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0ae7b95f64d87b3a76bc43b5e65fb815\support-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0ae7b95f64d87b3a76bc43b5e65fb815\support-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\492bdaeeeb0d2c3e82ad990716dbe113\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\492bdaeeeb0d2c3e82ad990716dbe113\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\90d1df03c49584b822b728771f290818\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\90d1df03c49584b822b728771f290818\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\295bfe839c3fef547ad5623122dcafad\play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\295bfe839c3fef547ad5623122dcafad\play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2e447865d4c61c5689b763c695f89312\transition-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2e447865d4c61c5689b763c695f89312\transition-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5fa3780e07af6d9e43ac0c5d194c99c1\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5fa3780e07af6d9e43ac0c5d194c99c1\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f65ae822761425996d7d12c0ef8efee5\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f65ae822761425996d7d12c0ef8efee5\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\1c1c2c267181abac31d7c699e33f94f1\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\1c1c2c267181abac31d7c699e33f94f1\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\97f30b34445ebb92d0684113bc39fd60\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\97f30b34445ebb92d0684113bc39fd60\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\30a8183c0492274cd7616cfc89c07c67\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\30a8183c0492274cd7616cfc89c07c67\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24aee3baa18a5f41f233e69e2ad25e91\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24aee3baa18a5f41f233e69e2ad25e91\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\eba85997079f405dd0d85e5a1e749eb0\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\eba85997079f405dd0d85e5a1e749eb0\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:27:9-35
+	android:label
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:25:9-41
+	android:roundIcon
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:26:9-46
+	android:icon
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:24:9-41
+	android:allowBackup
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:23:9-35
+	android:theme
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:28:9-40
+activity#com.sohrab.obd.reader.Aboutus
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:29:9-54
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:29:19-42
+activity#com.sohrab.obd.reader.LiveTrip
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:30:9-46
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:30:19-43
+activity#com.sohrab.obd.reader.ListTripVin
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:31:9-49
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:31:19-46
+activity#com.sohrab.obd.reader.CarList
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:32:9-45
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:32:19-42
+activity#com.sohrab.obd.reader.login
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:33:9-43
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:33:19-40
+activity#com.sohrab.obd.reader.Dashboard
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:34:9-36:52
+	android:screenOrientation
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:35:13-38
+activity#com.sohrab.obd.reader.TripList
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:37:9-39:52
+	android:screenOrientation
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:38:13-37
+activity#com.sohrab.obd.reader.LocationSearch
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:40:9-42:52
+	android:screenOrientation
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:42:13-49
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:41:13-43
+activity#com.sohrab.obd.reader.Parametres
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:43:9-45:52
+	android:screenOrientation
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:44:13-39
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:47:9-49:47
+	android:value
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:48:13-58
+activity#com.sohrab.obd.reader.Location
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:51:9-53:52
+	android:screenOrientation
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:52:13-37
+activity#com.sohrab.obd.reader.result
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:54:9-56:52
+	android:screenOrientation
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:56:13-49
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:55:13-35
+activity#com.sohrab.obd.reader.update
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:57:9-59:52
+	android:screenOrientation
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:59:13-49
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:58:13-35
+activity#com.sohrab.obd.reader.receive
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:60:9-62:52
+	android:screenOrientation
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:62:13-49
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:61:13-36
+activity#com.sohrab.obd.reader.DriveWin
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:63:9-65:52
+	android:screenOrientation
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:65:13-49
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:64:13-37
+activity#com.sohrab.obd.reader.SampleActivity
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:66:9-68:52
+	android:screenOrientation
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:68:13-49
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:67:13-43
+activity#com.sohrab.obd.reader.Main2Activity
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:69:9-77:20
+	android:screenOrientation
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:71:13-49
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:70:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:72:13-76:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:73:17-69
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:73:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:75:17-77
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:75:27-74
+service#com.sohrab.obd.reader.ObdReaderService
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:79:9-81:38
+	android:enabled
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:81:13-35
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:80:13-45
+service#com.sohrab.obd.reader.GPS_Service
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:82:9-84:38
+	android:enabled
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:84:13-35
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:83:13-40
+service#com.sohrab.obd.reader.CustomAccessibilityService
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:85:9-95:19
+	android:permission
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:87:13-79
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:86:13-55
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:88:13-90:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:89:17-92
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:89:25-89
+meta-data#android.accessibilityservice
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:92:13-94:64
+	android:resource
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:94:17-61
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:93:17-60
+receiver#com.sohrab.obd.reader.SensorRestarterBroadcastReceiver
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:97:9-101:57
+	android:enabled
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:99:13-35
+	android:label
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:101:13-54
+	android:exported
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:100:13-36
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:98:13-61
+receiver#com.sohrab.obd.reader.NotificationRceiver
+ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:102:9-57
+	android:name
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml:102:19-54
+uses-sdk
+INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+MERGED from [:obd-reader] C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:obd-reader] C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\obd-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f858484928deed1a8d074a95934f6dac\design-26.1.0\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f858484928deed1a8d074a95934f6dac\design-26.1.0\AndroidManifest.xml:21:5-23:62
+MERGED from [com.github.capur16:digitspeedviewlib:1.0.3] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2e1646c40e3a5cf97e7bdbeeae7189b7\digitspeedviewlib-1.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.capur16:digitspeedviewlib:1.0.3] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2e1646c40e3a5cf97e7bdbeeae7189b7\digitspeedviewlib-1.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fc0a90c5dd3569b60a485b829913e2b8\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fc0a90c5dd3569b60a485b829913e2b8\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c2d0cef8df1326fec449ad8ee7200474\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c2d0cef8df1326fec449ad8ee7200474\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\724c0271a3de25ca351c29a2523b0762\play-services-maps-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\724c0271a3de25ca351c29a2523b0762\play-services-maps-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\64198ee9f2584b968fd25a9df906764f\recyclerview-v7-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\64198ee9f2584b968fd25a9df906764f\recyclerview-v7-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\d702a75014c01e8d2c394031387f3622\gridlayout-v7-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\d702a75014c01e8d2c394031387f3622\gridlayout-v7-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a9daf6b0f087d27ac29c96b2b42058c8\cardview-v7-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a9daf6b0f087d27ac29c96b2b42058c8\cardview-v7-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.anastr:speedviewlib:1.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c0a1194f4113be66e6f55550ebb9f57b\speedviewlib-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.anastr:speedviewlib:1.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c0a1194f4113be66e6f55550ebb9f57b\speedviewlib-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.blackfizz:eazegraph:1.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\1de5f280388e78f344af1731625e2f59\eazegraph-1.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.blackfizz:eazegraph:1.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\1de5f280388e78f344af1731625e2f59\eazegraph-1.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [im.dacer:AndroidCharts:1.0.4] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\9d18d9de5abd08c078be47369277384f\AndroidCharts-1.0.4\AndroidManifest.xml:6:5-8:41
+MERGED from [im.dacer:AndroidCharts:1.0.4] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\9d18d9de5abd08c078be47369277384f\AndroidCharts-1.0.4\AndroidManifest.xml:6:5-8:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4be2a128164efb74abb14333115685ca\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4be2a128164efb74abb14333115685ca\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [info.hoang8f:android-segmented:1.0.6] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0727cc8bd3667fe063ce60db20933cee\android-segmented-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [info.hoang8f:android-segmented:1.0.6] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0727cc8bd3667fe063ce60db20933cee\android-segmented-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\08f2633415ad943b7a3663e67463e2d1\animated-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\08f2633415ad943b7a3663e67463e2d1\animated-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0ae7b95f64d87b3a76bc43b5e65fb815\support-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0ae7b95f64d87b3a76bc43b5e65fb815\support-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\492bdaeeeb0d2c3e82ad990716dbe113\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\492bdaeeeb0d2c3e82ad990716dbe113\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\90d1df03c49584b822b728771f290818\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\90d1df03c49584b822b728771f290818\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\295bfe839c3fef547ad5623122dcafad\play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\295bfe839c3fef547ad5623122dcafad\play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2e447865d4c61c5689b763c695f89312\transition-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2e447865d4c61c5689b763c695f89312\transition-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5fa3780e07af6d9e43ac0c5d194c99c1\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5fa3780e07af6d9e43ac0c5d194c99c1\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f65ae822761425996d7d12c0ef8efee5\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f65ae822761425996d7d12c0ef8efee5\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\1c1c2c267181abac31d7c699e33f94f1\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\1c1c2c267181abac31d7c699e33f94f1\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\97f30b34445ebb92d0684113bc39fd60\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\97f30b34445ebb92d0684113bc39fd60\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\30a8183c0492274cd7616cfc89c07c67\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\30a8183c0492274cd7616cfc89c07c67\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24aee3baa18a5f41f233e69e2ad25e91\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24aee3baa18a5f41f233e69e2ad25e91\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\eba85997079f405dd0d85e5a1e749eb0\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\eba85997079f405dd0d85e5a1e749eb0\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f858484928deed1a8d074a95934f6dac\design-26.1.0\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\API_V_2\android-obd-reader-master\sample-app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f858484928deed1a8d074a95934f6dac\design-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fc0a90c5dd3569b60a485b829913e2b8\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fc0a90c5dd3569b60a485b829913e2b8\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\64198ee9f2584b968fd25a9df906764f\recyclerview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\64198ee9f2584b968fd25a9df906764f\recyclerview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\d702a75014c01e8d2c394031387f3622\gridlayout-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\d702a75014c01e8d2c394031387f3622\gridlayout-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a9daf6b0f087d27ac29c96b2b42058c8\cardview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a9daf6b0f087d27ac29c96b2b42058c8\cardview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\08f2633415ad943b7a3663e67463e2d1\animated-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\08f2633415ad943b7a3663e67463e2d1\animated-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0ae7b95f64d87b3a76bc43b5e65fb815\support-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0ae7b95f64d87b3a76bc43b5e65fb815\support-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2e447865d4c61c5689b763c695f89312\transition-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2e447865d4c61c5689b763c695f89312\transition-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5fa3780e07af6d9e43ac0c5d194c99c1\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\5fa3780e07af6d9e43ac0c5d194c99c1\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f65ae822761425996d7d12c0ef8efee5\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f65ae822761425996d7d12c0ef8efee5\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\1c1c2c267181abac31d7c699e33f94f1\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\1c1c2c267181abac31d7c699e33f94f1\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\97f30b34445ebb92d0684113bc39fd60\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\97f30b34445ebb92d0684113bc39fd60\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\30a8183c0492274cd7616cfc89c07c67\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\30a8183c0492274cd7616cfc89c07c67\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24aee3baa18a5f41f233e69e2ad25e91\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24aee3baa18a5f41f233e69e2ad25e91\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f858484928deed1a8d074a95934f6dac\design-26.1.0\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f858484928deed1a8d074a95934f6dac\design-26.1.0\AndroidManifest.xml:27:13-51
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\724c0271a3de25ca351c29a2523b0762\play-services-maps-16.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\724c0271a3de25ca351c29a2523b0762\play-services-maps-16.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\724c0271a3de25ca351c29a2523b0762\play-services-maps-16.0.0\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\492bdaeeeb0d2c3e82ad990716dbe113\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\492bdaeeeb0d2c3e82ad990716dbe113\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\492bdaeeeb0d2c3e82ad990716dbe113\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\492bdaeeeb0d2c3e82ad990716dbe113\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\295bfe839c3fef547ad5623122dcafad\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\295bfe839c3fef547ad5623122dcafad\play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\295bfe839c3fef547ad5623122dcafad\play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\eba85997079f405dd0d85e5a1e749eb0\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\eba85997079f405dd0d85e5a1e749eb0\runtime-1.0.0\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\eba85997079f405dd0d85e5a1e749eb0\runtime-1.0.0\AndroidManifest.xml:26:13-58

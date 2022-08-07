@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+string accept_permission_for_location
+string accept_permission_in_app_settings
+string app_name
+string bluetooth_unsupported
+string connect_lost
+string connecting_to_ecu
+string engine_time_not_supported
+string feedback_content_cant_less_than_5
+string fuel_type_not_supported
+string image_request_failed
+string maf_not_supporte
+string obd2_adapter_not_responding
+string obd_connected
+string searching_protocol
+string searching_supported_sensor
+string syncing_not_completed_yet
+string track_not_available
+string unable_to_connect
+string waiting_for_obd

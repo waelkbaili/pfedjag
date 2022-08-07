@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/first_back"
+    android:fillViewport="true"
+    tools:context=".DriveWin">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/second_back">
+
+        <info.hoang8f.android.segmented.SegmentedGroup
+            android:id="@+id/radioGroup"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:sc_border_width="2dp"
+            app:sc_corner_radius="30dp"
+            >
+
+            <RadioButton
+                android:id="@+id/radio_one"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:onClick="checkButton"
+                android:text="@string/compte_proffessionel"
+                android:textColor="@color/gray"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_two"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="checkButton"
+                android:text="@string/compte_normal"
+                android:textColor="@color/gray"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+        </info.hoang8f.android.segmented.SegmentedGroup>
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginBottom="120dp"
+            android:fillViewport="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="40dp"
+                    android:drawableLeft="@drawable/mail_foreground"
+                    android:ems="10"
+                    android:hint="@string/email"
+                    android:inputType="textPersonName"
+                    android:textColor="?attr/firstTxtColor"
+                    android:textColorHint="?attr/firstTxtColor"
+                    android:backgroundTint="?attr/firstTxtColor"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:drawableStart="@drawable/mail_foreground"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="40dp" />
+
+                <EditText
+                    android:id="@+id/txtPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="40dp"
+                    android:drawableLeft="@drawable/loc_foreground"
+                    android:ems="10"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:textColor="?attr/firstTxtColor"
+                    android:textColorHint="?attr/firstTxtColor"
+                    android:backgroundTint="?attr/firstTxtColor"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtEmail"
+                    />
+
+                <EditText
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="40dp"
+                    android:drawableLeft="@drawable/per_foreground"
+                    android:ems="10"
+                    android:hint="@string/name"
+                    android:inputType="textPersonName"
+                    android:textColor="?attr/firstTxtColor"
+                    android:textColorHint="?attr/firstTxtColor"
+                    android:backgroundTint="?attr/firstTxtColor"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtPass" />
+
+                <EditText
+                    android:id="@+id/txtAdd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="40dp"
+                    android:drawableLeft="@drawable/pos_foreground"
+                    android:ems="10"
+                    android:hint="@string/address"
+                    android:inputType="textPersonName"
+                    android:textColor="?attr/firstTxtColor"
+                    android:textColorHint="?attr/firstTxtColor"
+                    android:backgroundTint="?attr/firstTxtColor"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtName" />
+
+                <EditText
+                    android:id="@+id/txtUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="40dp"
+                    android:drawableLeft="@drawable/user_foreground"
+                    android:ems="10"
+                    android:hint="@string/username"
+                    android:inputType="textPersonName"
+                    android:textColor="?attr/firstTxtColor"
+                    android:textColorHint="?attr/firstTxtColor"
+                    android:backgroundTint="?attr/firstTxtColor"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtAdd" />
+
+                <TextView
+                    android:id="@+id/txtDateNaiss"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="40dp"
+                    android:drawableLeft="@drawable/date_foreground"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:hint="@string/dateNais"
+                    android:inputType="textPersonName"
+                    android:textColor="?attr/firstTxtColor"
+                    android:textColorHint="?attr/firstTxtColor"
+                    android:backgroundTint="?attr/firstTxtColor"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtUser" />
+
+                <View
+                    android:id="@+id/ligne"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_height="1dp"
+                    android:background="?attr/firstTxtColor"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtDateNaiss"/>
+
+                <Spinner
+                    android:id="@+id/spinnerSexe"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="40dp"
+                    style="@style/Widget.AppCompat.Spinner.Underlined"
+                    android:theme="@style/ThemeSpinner"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtDateNaiss" />
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="40dp"
+                    style="@style/Widget.AppCompat.Spinner.Underlined"
+                    android:theme="@style/ThemeSpinner"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/spinnerSexe" />
+
+                <ProgressBar
+                    android:id="@+id/progReg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/SCBSwitch"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/txtEmail"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/img"
+            android:textAllCaps="false"
+            android:text="@string/Register"
+            android:textColor="#4D7D8D"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/progresslayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/progress"
+        tools:ignore="MissingConstraints"
+        android:visibility="gone"/>
+    </android.support.constraint.ConstraintLayout>
+
+

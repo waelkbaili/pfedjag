@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:title="@string/profil"
+        android:id="@+id/profil"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/new_trip"
+        android:id="@+id/trip"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/historique_trips"
+        android:id="@+id/historique"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/help"
+        android:id="@+id/help"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:title="@string/logout"
+        android:id="@+id/logout"
+        app:showAsAction="never"/>
+
+
+
+</menu>
